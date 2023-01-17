@@ -1,4 +1,7 @@
-﻿using System;
+﻿using NttData.FileManagement.Business.WinSite.Contracts;
+using NttData.FileManagement.Business.WinSite.Implementations;
+using NttData.FileManagement.Common.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +18,29 @@ namespace NttData.FileManagement.Presentation.WinSite
         public frmStudent()
         {
             InitializeComponent();
+        }
+
+        private void frmStudent_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            IStudentService studentService = new StudentServiceImpl();
+            Student student = new Student();
+
+            student.Id = int.Parse(txtId.Text);
+            student.Name = txtName.Text;
+            student.Surname = txtSurname.Text;
+            student.Birthay = DateTime.Parse(txtBirthday.Text);
+            
+
+            studentService.Add(student);
+
+            MessageBox.Show("The student is saved");
+
         }
     }
 }
