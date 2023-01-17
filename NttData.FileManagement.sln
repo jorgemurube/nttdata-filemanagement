@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation Tier", "1 - Presentation Tier", "{051E1568-F468-44D7-B15A-67A14CA46CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Presentation.WinSite", "NttData.FileManagement.Presentation.WinSite\NttData.FileManagement.Presentation.WinSite.csproj", "{509EFF7B-6C45-4BC1-B41E-A2823142ABBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{509EFF7B-6C45-4BC1-B41E-A2823142ABBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509EFF7B-6C45-4BC1-B41E-A2823142ABBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509EFF7B-6C45-4BC1-B41E-A2823142ABBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509EFF7B-6C45-4BC1-B41E-A2823142ABBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{509EFF7B-6C45-4BC1-B41E-A2823142ABBC} = {051E1568-F468-44D7-B15A-67A14CA46CCC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00EFC8F7-BF4F-4096-B126-D26B9EBC7CBE}
+	EndGlobalSection
+EndGlobal
