@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.Common.Model", "NttData.FileManagement.Common.Model\NttData.FileManagement.Common.Model.csproj", "{444C0755-7089-4BB8-B36F-F2F9C815A20D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NttData.FileManagement.DataAcces.Repository.Integration.Tests", "NttData.FileManagement.DataAcces.Repository.Integration.Tests\NttData.FileManagement.DataAcces.Repository.Integration.Tests.csproj", "{D4D9EEF8-05AB-4387-A326-1E4D75A333F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{444C0755-7089-4BB8-B36F-F2F9C815A20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{444C0755-7089-4BB8-B36F-F2F9C815A20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{444C0755-7089-4BB8-B36F-F2F9C815A20D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D9EEF8-05AB-4387-A326-1E4D75A333F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D9EEF8-05AB-4387-A326-1E4D75A333F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D9EEF8-05AB-4387-A326-1E4D75A333F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D9EEF8-05AB-4387-A326-1E4D75A333F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{8F098FAB-C490-4833-A3DE-92CBFDC5C947} = {92E68939-8139-4AD0-B3BD-08E145509778}
 		{BC70A0BE-12D4-4E08-BEB3-D95741C7AD21} = {5A611DD2-457C-4F6A-82BC-2DC44DFBC591}
 		{444C0755-7089-4BB8-B36F-F2F9C815A20D} = {1D2B0089-A33A-4F28-9CDB-30993B757014}
+		{D4D9EEF8-05AB-4387-A326-1E4D75A333F6} = {5A611DD2-457C-4F6A-82BC-2DC44DFBC591}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {00EFC8F7-BF4F-4096-B126-D26B9EBC7CBE}
