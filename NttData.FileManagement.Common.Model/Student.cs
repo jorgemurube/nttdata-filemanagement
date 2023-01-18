@@ -39,7 +39,7 @@ namespace NttData.FileManagement.Common.Model
 
         public override string ToString()
         {
-            return Id + "," + Name + "," + Surname + "," + Birthay + "," + Age;
+            return Id + ", " + Name + ", " + Surname + ", " + Birthay.ToString("dd,MM,yyyy") + "," + Age;
         }
 
 

@@ -14,21 +14,20 @@ namespace NttData.FileManagement.DataAcces.Repository.Implementations
     {
         public bool Add(Student student)
         {
-            TextWriter archivo;
             string path = ConfigurationManager.AppSettings.Get("FileStudentPath");
 
 
             if (!File.Exists(path))
             {
                 using (StreamWriter sw = File.CreateText(path))
-                    sw.WriteLine(student.Id + ", " + student.Name + ", " + student.Surname + ", " + student.Birthay.ToString("dd,MM,yyyy") + "," + student.Age);
-                //archivo.Close()
+                    sw.WriteLine(student.ToString());
+                
             }
             else
             {
                 using (StreamWriter sw = File.AppendText(path))
                 {
-                    sw.WriteLine(student.Id + ", " + student.Name + ", " + student.Surname + ", " + student.Birthay.ToString("dd,MM,yyyy") + "," + student.Age);
+                    sw.WriteLine(student.ToString());
                 }
             }
 
