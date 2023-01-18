@@ -10,5 +10,7 @@ namespace NttData.FileManagement.Business.WinSite.Contracts
     public interface IStudentService
     {
         bool Add(Student student);
+
+        int AgeCalculator(Student student); 
     }
 }

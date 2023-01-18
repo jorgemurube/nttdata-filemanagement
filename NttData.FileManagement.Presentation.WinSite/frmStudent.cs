@@ -2,6 +2,7 @@
 using NttData.FileManagement.Business.WinSite.Implementations;
 using NttData.FileManagement.Common.Model;
 using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,9 @@ namespace NttData.FileManagement.Presentation.WinSite
 
         private void frmStudent_Load(object sender, EventArgs e)
         {
-
+            /*string path = ConfigurationManager.AppSettings.Get("FileStudentPath");
+            MessageBox.Show(path);*/
+            
         }
 
 
@@ -37,9 +40,11 @@ namespace NttData.FileManagement.Presentation.WinSite
             student.Birthay = DateTime.Parse(txtBirthday.Text);
             
 
+
+
             studentService.Add(student);
 
-            MessageBox.Show("The student is saved");
+            MessageBox.Show("Studend saved");
 
         }
     }
